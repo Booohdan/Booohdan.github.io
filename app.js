@@ -22,7 +22,7 @@ function getCoin() {
     setTimeout(() => {
         document.getElementById("click").disabled = false;
         clickCooldown = false;
-    }, 250);
+    }, 200);
 }
 
 window.onload = function () {
